@@ -1,0 +1,271 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!--SCP Dialogue Department Logo Animation / Vectored and Animated by ukwhatn, based on Dialogue Department Logo by aisurakuto / Licesed under CC BY-SA 3.0 -->
+<svg xmlns="http://www.w3.org/2000/svg" id="dialogue-department" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      svg {
+        background: transparent;
+      }
+
+      /* CREATED BY Adobe Illustrator */
+      .cls-1 {
+        fill: white;
+        opacity: 0;
+      }
+    </style>
+  </defs>
+  <rect id="background" class="cls-1" width="500" height="500">
+    <animate id="tc" attributeType="CSS" attributeName="opacity" from="0" to="0" dur="20s" begin="0s;tc.begin+20s"/>
+  </rect>
+  <g>
+    <g id="outer">
+      <style>
+        #scppath {
+          fill: none;
+          stroke: black;
+          stroke-miterlimit: 10;
+          stroke-width: 6px;
+          stroke-dasharray: 1260;
+          stroke-dashoffset: 1260;
+          stroke-linecap: round;
+        }
+      </style>
+      <path
+        id="scppath"
+        class="cls-2"
+        d="M250,53.021h55.113l5.1,30.618c13.508,4.884,61.117,23.949,92.017,76.014C434.489,214,426.616,267.378,424.181,281.031l23.965,19.729-55.114,95.459-29.068-10.89c-10.617,8.93-53.158,42.6-116.616,41.647-60.147-.9-100.228-32.32-111.312-41.647l-29.068,10.89L51.854,300.76l23.965-19.729C73.384,267.381,65.507,214,97.764,159.651c30.9-52.066,78.514-71.129,92.019-76.012q2.552-15.309,5.1-30.618Z"
+      >
+        <animate id="fadein" attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s;tc.begin+0s" fill="freeze"/>
+        <animate id="scppath" attributeType="XML" attributeName="stroke-dashoffset" from="1260" to="0" dur="2s" begin="0s;tc.begin+0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+        <animate id="finalfadeout" attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.5s" begin="16.5s;tc.begin+16.5s" fill="freeze"/>
+      </path>
+      <g id="outercircle">
+        <style>
+          #outercircle path {
+            fill: none;
+            stroke: black;
+            stroke-miterlimit: 10;
+            stroke-width: 6px;
+            stroke-dasharray: 381;
+            stroke-dashoffset: 381;
+            stroke-linecap: round;
+          }
+        </style>
+        <path id="outer4" d="M250,7.6C116.128,7.6,7.6,116.128,7.6,250">
+          <animate id="outercircle" attributeType="XML" attributeName="stroke-dashoffset" from="381" to="0" dur="1.75s" begin="1s;tc.begin+1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+        </path>
+        <path id="outer3" d="M7.6,250C7.6,383.872,116.128,492.4,250,492.4" stroke-dasharray="381" stroke-dashoffset="381" stroke-linecap="round">
+          <animate id="outercircle" attributeType="XML" attributeName="stroke-dashoffset" from="381" to="0" dur="1.75s" begin="1s;tc.begin+1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+        </path>
+        <path id="outer2" d="M250,492.4c133.872,0,242.4-108.525,242.4-242.4" stroke-dasharray="381" stroke-dashoffset="381" stroke-linecap="round">
+          <animate id="outercircle" attributeType="XML" attributeName="stroke-dashoffset" from="381" to="0" dur="1.75s" begin="1s;tc.begin+1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+        </path>
+        <path id="outer1" d="M492.4,250C492.4,116.128,383.872,7.6,250,7.6" stroke-dasharray="381" stroke-dashoffset="381" stroke-linecap="round">
+          <animate id="outercircle" attributeType="XML" attributeName="stroke-dashoffset" from="381" to="0" dur="1.75s" begin="1s;tc.begin+1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+        </path>
+        <animate id="fadein" attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.5s" begin="1s;tc.begin+1s" fill="freeze"/>
+        <animate id="finalfadeout" attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.5s" begin="16.5s;tc.begin+16.5s" fill="freeze"/>
+      </g>
+      <circle id="innercircle" cx="250" cy="250" r="110" stroke-dasharray="692" stroke-dashoffset="692" stroke-linecap="round">
+        <style>
+          #innercircle {
+            fill: none;
+            stroke: black;
+            stroke-miterlimit: 10;
+            stroke-width: 15px;
+            stroke-dasharray: 692;
+            stroke-dashoffset: 692;
+            stroke-linecap: round;
+          }
+        </style>
+        <animate id="fadein" attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.5s" begin="1s;tc.begin+1s" fill="freeze"/>
+        <animate id="innercircle" attributeType="XML" attributeName="stroke-dashoffset" from="692" to="0" dur="1.75s" begin="1s;tc.begin+1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+        <animate id="finalfadeout" attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.5s" begin="16.5s;tc.begin+16.5s" fill="freeze"/>
+      </circle>
+      <g id="arrow">
+        <style>
+          #arrow polygon {
+            fill: transparent;
+            stroke: black;
+            stroke-miterlimit: 10;
+            stroke-width: 1px;
+            stroke-dasharray: 310;
+            stroke-dashoffset: 310;
+            stroke-linecap: round;
+          }
+        </style>
+        <polygon id="arrow3" points="351.663 308.696 379.821 352.6 388.506 337.878 456.414 377.085 463.266 365.217 395.358 326.011 403.765 311.128 351.663 308.696">
+          <animate id="arrow" attributeType="XML" attributeName="stroke-dashoffset" from="310" to="0" dur="1.5s" begin="1.25s;tc.begin+1.25s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+          <animate id="arrow_fill" attributeType="XML" attributeName="fill" from="transparent" to="black" dur="0.5s" begin="2.75s;tc.begin+2.75s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+          <animate id="reset" attributeType="XML" attributeName="fill" from="black" to="transparent" dur="0.1s" begin="19.75s;tc.begin+19.75s" fill="freeze"/>
+        </polygon>
+        <polygon id="arrow2" points="148.353 308.687 96.235 311.129 104.642 326.011 36.735 365.217 43.586 377.085 111.494 337.878 120.179 352.6 148.353 308.687">
+          <animate id="arrow" attributeType="XML" attributeName="stroke-dashoffset" from="310" to="0" dur="1.5s" begin="1.25s;tc.begin+1.25s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+          <animate id="arrow_fill" attributeType="XML" attributeName="fill" from="transparent" to="black" dur="0.5s" begin="2.75s;tc.begin+2.75s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+          <animate id="reset" attributeType="XML" attributeName="fill" from="black" to="transparent" dur="0.1s" begin="19.75s;tc.begin+19.75s" fill="freeze"/>
+        </polygon>
+        <polygon id="arrow1" points="250.001 132.61 273.944 86.271 256.852 86.111 256.852 7.698 243.149 7.698 243.149 86.111 226.056 86.271 250.001 132.61">
+          <animate id="arrow" attributeType="XML" attributeName="stroke-dashoffset" from="310" to="0" dur="1.5s" begin="1.25s;tc.begin+1.25s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+          <animate id="arrow_fill" attributeType="XML" attributeName="fill" from="transparent" to="black" dur="0.5s" begin="2.75s;tc.begin+2.75s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+          <animate id="reset" attributeType="XML" attributeName="fill" from="black" to="transparent" dur="0.1s" begin="19.75s;tc.begin+19.75s" fill="freeze"/>
+        </polygon>
+        <animate id="fadein" attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.25s;tc.begin+1.25s" fill="freeze"/>
+        <animate id="finalfadeout" attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.5s" begin="16.5s;tc.begin+16.5s" fill="freeze"/>
+      </g>
+
+    </g>
+    <g id="inner">
+      <g id="inner_main">
+        <style>
+          #inner_main * {
+            fill: transparent;
+            stroke: black;
+            stroke-miterlimit: 10;
+            stroke-linecap: round;
+          }
+          #inner_circle circle {
+            stroke-width: 3px;
+            stroke-dasharray: 74;
+            stroke-dashoffset: 74;
+          }
+          #inner_heart path {
+            stroke-width: 4px;
+            stroke-dasharray: 183;
+            stroke-dashoffset: 183;
+          }
+        </style>
+        <g id="inner_circle">
+          <circle id="cir_black" cx="183.66" cy="291.845" r="11.737">
+            <!-- 小円形成 -->
+            <animate id="cir" attributeType="XML" attributeName="stroke-dashoffset" from="74" to="0" dur="0.75s" begin="4s;tc.begin+4s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+            <!-- 塗りつぶし -->
+            <animate id="cir_fill" attributeType="XML" attributeName="fill" from="transparent" to="black" dur="1s" begin="5.5s;tc.begin+5.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+            <animate id="reset" attributeType="XML" attributeName="fill" from="black" to="transparent" dur="0.1s" begin="19.75s;tc.begin+19.75s" fill="freeze"/>
+            <!-- 位置反転 -->
+            <!-- 初期値 -->
+            <animateTransform id="cir_inv" attributeType="XML" attributeName="transform" type="translate" from="0, 0" to="0, -67.4" dur="0.1s" begin="0s;tc.begin+0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+            <!-- 移動 -->
+            <animateTransform id="cir_inv" attributeType="XML" attributeName="transform" type="translate" from="0, -67.4" to="0, 0" dur="1s" begin="5.5s;tc.begin+5.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+          </circle>
+          <circle id="cir_white" cx="316.34" cy="208.155" r="11.737">
+            <!-- 小円形成 -->
+            <animate id="cir" attributeType="XML" attributeName="stroke-dashoffset" from="74" to="0" dur="0.75s" begin="4s;tc.begin+4s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+            <!-- 位置反転 -->
+            <!-- 初期値 -->
+            <animateTransform id="cir_inv" attributeType="XML" attributeName="transform" type="translate" from="0, 0" to="0, 18.7466" dur="0.1s" begin="0s;tc.begin+0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+            <!-- 移動 -->
+            <animateTransform id="cir_inv" attributeType="XML" attributeName="transform" type="translate" from="0, 18.7466" to="0, 0" dur="1s" begin="5.5s;tc.begin+5.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+          </circle>
+        </g>
+        <g id="inner_heart">
+          <path id="heart_white" d="M242.856,232.649v64.583c-7.954,8.626-20.848,9.96-29.6,3.8-9.92-6.985-12.342-22.076-4.083-32.66Z">
+            <!-- 形成 -->
+            <animate attributeType="XML" attributeName="stroke-dashoffset" from="183" to="0" dur="0.75s" begin="4s;tc.begin+4s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+            <!-- 位置反転 - 初期値 -->
+            <animateTransform attributeType="XML" attributeName="transform" type="translate" from="0, 0" to="0, -18.7466" dur="0.1s" begin="0s;tc.begin+0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+            <animate attributeType="XML" attributeName="d"
+              from="M242.856,232.649v64.583c-7.954,8.626-20.848,9.96-29.6,3.8-9.92-6.985-12.342-22.076-4.083-32.66Z"
+              to="M242.856,304.844V240.261c-7.954-8.626-20.848-9.96-29.6-3.8-9.92,6.985-12.342,22.076-4.083,32.66Z"
+              dur="0.1s" begin="0s;tc.begin+0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+            <!-- 位置反転 - 移動 -->
+            <animateTransform attributeType="XML" attributeName="transform" type="translate" from="0, -18.7466" to="0, 0" dur="1s" begin="5.5s;tc.begin+5.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+            <animate attributeType="XML" attributeName="d"
+              from="M242.856,304.844V240.261c-7.954-8.626-20.848-9.96-29.6-3.8-9.92,6.985-12.342,22.076-4.083,32.66Z"
+              to="M242.856,232.649v64.583c-7.954,8.626-20.848,9.96-29.6,3.8-9.92-6.985-12.342-22.076-4.083-32.66Z"
+              dur="1s" begin="5.5s;tc.begin+5.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+          </path>
+          <path id="heart_black" d="M257.144,202.768v64.583l33.681-35.722c8.259-10.584,5.837-25.675-4.083-32.66C277.992,192.808,265.1,194.142,257.144,202.768Z">
+            <!-- 形成 -->
+            <animate attributeType="XML" attributeName="stroke-dashoffset" from="183" to="0" dur="0.75s" begin="4s;tc.begin+4s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+            <!-- 塗りつぶし -->
+            <animate attributeType="XML" attributeName="fill" from="transparent" to="black" dur="1s" begin="5.5s;tc.begin+5.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+            <!-- 塗りつぶし - リセット -->
+            <animate attributeType="XML" attributeName="fill" from="black" to="transparent" dur="0.1s" begin="19.75s;tc.begin+19.75s" fill="freeze"/>
+            <!-- 位置反転 - 初期値 -->
+            <animateTransform attributeType="XML" attributeName="transform" type="translate" from="0, 0" to="0, 18.7466" dur="0.1s" begin="0s;tc.begin+0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+            <!-- 位置反転 - 移動 -->
+            <animateTransform attributeType="XML" attributeName="transform" type="translate" from="0, 18.7466" to="0, 0" dur="1s" begin="5.5s;tc.begin+5.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+          </path>
+        </g>
+        <animate id="fadein" attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.5s" begin="4s;tc.begin+4s" fill="freeze"/>
+        <animate id="finalfadeout" attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.5s" begin="16.5s;tc.begin+16.5s" fill="freeze"/>
+      </g>
+      <g id="inner_shadow">
+      <style>
+        #inner_shadow * {
+          opacity: 0;
+        }
+      </style>
+        <path id="cap_white_shadow" d="M242.856,232.649v64.583c-7.954,8.626-20.848,9.96-29.6,3.8-9.92-6.985-12.342-22.076-4.083-32.66Z"/>
+        <path id="cap_black_shadow" d="M257.144,202.768v64.583l33.681-35.722c8.259-10.584,5.837-25.675-4.083-32.66C277.992,192.808,265.1,194.142,257.144,202.768Z"/>
+      </g>
+    </g>
+    <!-- ロゴ縮小・移動 - リセット -->
+    <animateTransform attributeType="XML" attributeName="transform" type="translate" from="56.75, 6.75" to="0, 0" dur="0.1s" begin="19.75s;tc.begin+19.75s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+    <animateTransform attributeType="XML" attributeName="transform" type="scale" from="0.773, 0.773" to="1, 1" dur="0.1s" begin="19.75s;tc.begin+19.75s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0" additive="sum"/>
+    <!-- ロゴ縮小・移動 - 移動 -->
+    <animateTransform attributeType="XML" attributeName="transform" type="translate" from="0, 0" to="56.75, 6.75" dur="2s" begin="8.5s;tc.begin+8.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0"/>
+    <animateTransform attributeType="XML" attributeName="transform" type="scale" from="1, 1" to="0.773, 0.773" dur="2s" begin="8.5s;tc.begin+8.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0.0 0.58 1.0" additive="sum"/>
+  </g>
+  <g id="text">
+    <style>
+    #text {
+        opacity: 0;
+    }
+    </style>
+    <animate id="fadein" attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.5s" begin="10.5s;tc.begin+10.5s" fill="freeze"/>
+    <animate id="finalfadeout" attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.5s" begin="16.5s;tc.begin+16.5s" fill="freeze"/>
+    <path
+      d="M143.11,421.893v-1.176h4.621a9.855,9.855,0,0,0,4.868-.889,3.118,3.118,0,0,0,1.463-2.885,3.324,3.324,0,0,0-.848-2.351,11.054,11.054,0,0,0-3.746-2.051l-1.258-.506A11.128,11.128,0,0,1,144.1,409.7a4.35,4.35,0,0,1-.985-2.98,3.774,3.774,0,0,1,1.586-3.268,7.863,7.863,0,0,1,4.608-1.135h4.922v1.067h-5.264a5.9,5.9,0,0,0-3.432.841,2.774,2.774,0,0,0-1.189,2.413,3.263,3.263,0,0,0,.759,2.249,8.852,8.852,0,0,0,3.219,1.811l1.491.588q.163.069.451.178a13.833,13.833,0,0,1,3.349,1.668,5.145,5.145,0,0,1,1.354,1.7,4.655,4.655,0,0,1,.437,2.017,4.528,4.528,0,0,1-1.62,3.732,7.186,7.186,0,0,1-4.628,1.313Z"/>
+    <path
+      d="M172.283,420.812v1.081H171.3q-5.167,0-8.053-2.591a10.484,10.484,0,0,1-.014-14.431q2.871-2.584,8.039-2.584.425,0,.629.007a3.367,3.367,0,0,1,.383.034v1.08c-.146-.009-.3-.015-.451-.02s-.4-.007-.725-.007a9.875,9.875,0,0,0-6.965,2.3,9.465,9.465,0,0,0,.02,12.831,10.005,10.005,0,0,0,7.027,2.31q.438,0,.677-.007C172.025,420.814,172.165,420.812,172.283,420.812Z"/>
+    <path
+      d="M177.75,421.893V408.727a6.994,6.994,0,0,1,1.667-4.929,5.883,5.883,0,0,1,4.553-1.812,5.656,5.656,0,0,1,4.17,1.757,5.8,5.8,0,0,1,1.736,4.232,5.873,5.873,0,0,1-.519,2.447,6.031,6.031,0,0,1-1.477,2.01,5.551,5.551,0,0,1-2.023,1.175,9.46,9.46,0,0,1-2.844.356h-3.076v-1.121h3.5a5.264,5.264,0,0,0,3.76-1.313A4.614,4.614,0,0,0,188.591,408a4.786,4.786,0,0,0-1.346-3.493,4.592,4.592,0,0,0-3.425-1.374,4.406,4.406,0,0,0-3.582,1.5,6.561,6.561,0,0,0-1.258,4.32v12.934Z"/>
+    <path d="M205.361,421.893V408.535a6.289,6.289,0,0,1,1.573-4.669,6.479,6.479,0,0,1,4.73-1.552h2.967v1.122H211.35a4.868,4.868,0,0,0-3.562,1.182,4.742,4.742,0,0,0-1.2,3.521v3.39h8.039v1.094h-8.039v9.27Z"/>
+    <path
+      d="M219.563,415.289a6.854,6.854,0,0,1,.506-2.618,7.274,7.274,0,0,1,1.477-2.263,6.661,6.661,0,0,1,2.153-1.47,6.606,6.606,0,0,1,5.1,0,6.661,6.661,0,0,1,2.153,1.47,6.817,6.817,0,0,1,1.456,2.229,7.262,7.262,0,0,1,0,5.291,6.813,6.813,0,0,1-1.456,2.228,6.439,6.439,0,0,1-2.153,1.477,6.678,6.678,0,0,1-5.1,0,6.439,6.439,0,0,1-2.153-1.477,7.1,7.1,0,0,1-1.477-2.256A6.87,6.87,0,0,1,219.563,415.289Zm1.2-.027a5.759,5.759,0,0,0,1.592,4.115,5.307,5.307,0,0,0,7.759-.007,6.131,6.131,0,0,0,0-8.23,5.324,5.324,0,0,0-7.759.006A5.763,5.763,0,0,0,220.767,415.262Z"/>
+    <path d="M247.861,408.672h1.149v7.478a6.268,6.268,0,0,1-1.463,4.375,5.543,5.543,0,0,1-7.82,0,6.264,6.264,0,0,1-1.463-4.375v-7.478h1.121v7.848a4.69,4.69,0,0,0,1.182,3.315,4.309,4.309,0,0,0,6.119.007,4.7,4.7,0,0,0,1.175-3.322Z"/>
+    <path d="M256.185,421.893h-1.122v-7.479a6.274,6.274,0,0,1,1.463-4.368,5.53,5.53,0,0,1,7.821,0,6.274,6.274,0,0,1,1.463,4.368v7.479h-1.122v-7.834a4.685,4.685,0,0,0-1.182-3.323,4.342,4.342,0,0,0-6.139,0,4.685,4.685,0,0,0-1.182,3.323Z"/>
+    <path
+      d="M283.28,402.314h1.149v12.209a12.486,12.486,0,0,1-.219,2.509,5.85,5.85,0,0,1-.7,1.839,6.88,6.88,0,0,1-2.461,2.42,6.52,6.52,0,0,1-3.281.848,6.331,6.331,0,0,1-4.751-1.942,6.769,6.769,0,0,1-1.88-4.908,7.232,7.232,0,0,1,.478-2.632,6.881,6.881,0,0,1,1.395-2.221,6.268,6.268,0,0,1,2.153-1.5,6.822,6.822,0,0,1,2.659-.512,6.554,6.554,0,0,1,2.42.451,7.142,7.142,0,0,1,2.147,1.34v1.517a6.755,6.755,0,0,0-2.12-1.668,5.568,5.568,0,0,0-2.447-.546,5.174,5.174,0,0,0-3.93,1.64,6.293,6.293,0,0,0,.02,8.3,5.174,5.174,0,0,0,3.91,1.654,4.935,4.935,0,0,0,3.972-1.757,7.1,7.1,0,0,0,1.483-4.737Z"/>
+    <path
+      d="M301.9,421.893v-5.934a7.1,7.1,0,0,0-1.483-4.737,4.934,4.934,0,0,0-3.972-1.757,5.178,5.178,0,0,0-3.91,1.654,6.293,6.293,0,0,0-.02,8.3,5.175,5.175,0,0,0,3.93,1.641,5.513,5.513,0,0,0,2.448-.554,6.917,6.917,0,0,0,2.119-1.661v1.5a6.78,6.78,0,0,1-2.126,1.346,6.672,6.672,0,0,1-2.441.445,6.861,6.861,0,0,1-2.666-.513,6.113,6.113,0,0,1-2.146-1.5,6.9,6.9,0,0,1-1.395-2.222,7.192,7.192,0,0,1-.478-2.618,6.788,6.788,0,0,1,1.88-4.922,6.334,6.334,0,0,1,4.751-1.941,6.519,6.519,0,0,1,3.281.847,6.849,6.849,0,0,1,2.461,2.434,5.826,5.826,0,0,1,.7,1.839,12.335,12.335,0,0,1,.219,2.5v5.852Z"/>
+    <path d="M309.128,404.926h1.148v3.746h4.676v1.094h-4.676v7.4a3.675,3.675,0,0,0,.93,2.789,4.208,4.208,0,0,0,2.953.875h.793v1.067h-.588a5.777,5.777,0,0,1-3.93-1.156,4.384,4.384,0,0,1-1.306-3.466Z"/>
+    <path d="M320.076,404.953a.8.8,0,0,1,.807-.807.842.842,0,0,1,.6.233.759.759,0,0,1,.246.574.8.8,0,0,1-.246.588.817.817,0,0,1-.6.246.767.767,0,0,1-.568-.246A.816.816,0,0,1,320.076,404.953Zm.246,16.94V408.672h1.149v13.221Z"/>
+    <path
+      d="M326.991,415.289a6.854,6.854,0,0,1,.506-2.618,7.274,7.274,0,0,1,1.477-2.263,6.65,6.65,0,0,1,2.153-1.47,6.606,6.606,0,0,1,5.1,0,6.661,6.661,0,0,1,2.153,1.47,6.817,6.817,0,0,1,1.456,2.229,7.262,7.262,0,0,1,0,5.291,6.813,6.813,0,0,1-1.456,2.228,6.439,6.439,0,0,1-2.153,1.477,6.678,6.678,0,0,1-5.1,0,6.429,6.429,0,0,1-2.153-1.477A7.1,7.1,0,0,1,327.5,417.9,6.87,6.87,0,0,1,326.991,415.289Zm1.2-.027a5.764,5.764,0,0,0,1.593,4.115,5.307,5.307,0,0,0,7.759-.007,6.131,6.131,0,0,0,0-8.23,5.324,5.324,0,0,0-7.759.006A5.768,5.768,0,0,0,328.194,415.262Z"/>
+    <path d="M346.813,421.893h-1.121v-7.479a6.274,6.274,0,0,1,1.463-4.368,5.53,5.53,0,0,1,7.821,0,6.273,6.273,0,0,1,1.462,4.368v7.479h-1.121v-7.834a4.685,4.685,0,0,0-1.182-3.323,4.342,4.342,0,0,0-6.139,0,4.686,4.686,0,0,0-1.183,3.323Z"/>
+    <path
+      d="M28.506,462.146h.113q1.347.088,2,.089,7.569,0,11.747-3.773t4.177-10.579a15.97,15.97,0,0,0-.932-5.56,12.994,12.994,0,0,0-2.751-4.458,12.506,12.506,0,0,0-4.986-3.313,22.156,22.156,0,0,0-7.345-1.022h-3.5v30.412H25V431.778h5.3a31.674,31.674,0,0,1,6.447.562,13.792,13.792,0,0,1,4.537,1.752,15.027,15.027,0,0,1,5.525,5.705,16.775,16.775,0,0,1,1.842,8.041q0,7.659-4.773,11.9t-13.443,4.245q-.786,0-1.19-.008c-.27,0-.517-.017-.742-.037Z"/>
+    <path
+      d="M54.648,436.113a1.3,1.3,0,0,1,1.325-1.325,1.383,1.383,0,0,1,.988.382,1.245,1.245,0,0,1,.405.943,1.317,1.317,0,0,1-.405.966,1.341,1.341,0,0,1-.988.4,1.255,1.255,0,0,1-.932-.4A1.337,1.337,0,0,1,54.648,436.113Zm.4,27.829V442.223h1.887v21.719Z"/>
+    <path
+      d="M83.148,463.942v-9.748a11.679,11.679,0,0,0-2.437-7.783,8.106,8.106,0,0,0-6.525-2.886,8.5,8.5,0,0,0-6.424,2.718,10.337,10.337,0,0,0-.033,13.634,8.5,8.5,0,0,0,6.457,2.695,9.055,9.055,0,0,0,4.021-.909,11.386,11.386,0,0,0,3.481-2.729v2.47a11.113,11.113,0,0,1-3.493,2.212,10.927,10.927,0,0,1-4.009.731,11.3,11.3,0,0,1-4.38-.842,10.058,10.058,0,0,1-3.526-2.46,11.288,11.288,0,0,1-2.291-3.649,11.809,11.809,0,0,1-.786-4.3,11.147,11.147,0,0,1,3.088-8.086,10.407,10.407,0,0,1,7.805-3.19,10.709,10.709,0,0,1,5.391,1.393,11.243,11.243,0,0,1,4.043,4,9.6,9.6,0,0,1,1.145,3.02,20.278,20.278,0,0,1,.36,4.1v9.613Z"/>
+    <path d="M92.489,463.942V431.778h1.886v32.164Z"/>
+    <path
+      d="M100.639,453.094a11.257,11.257,0,0,1,.831-4.3,11.987,11.987,0,0,1,2.426-3.717,10.883,10.883,0,0,1,3.538-2.414,10.829,10.829,0,0,1,8.378,0,10.889,10.889,0,0,1,3.537,2.414,11.2,11.2,0,0,1,2.392,3.661,11.929,11.929,0,0,1,0,8.693,11.2,11.2,0,0,1-2.392,3.661,10.592,10.592,0,0,1-3.537,2.426,10.974,10.974,0,0,1-8.378,0,10.586,10.586,0,0,1-3.538-2.426,11.691,11.691,0,0,1-2.426-3.706A11.285,11.285,0,0,1,100.639,453.094Zm1.977-.045a9.467,9.467,0,0,0,2.616,6.761,8.722,8.722,0,0,0,12.747-.012,10.076,10.076,0,0,0,0-13.522,8.745,8.745,0,0,0-12.747.012A9.467,9.467,0,0,0,102.616,453.049Z"/>
+    <path
+      d="M149.2,463.066a11.3,11.3,0,0,1-2.864,8.142,10.221,10.221,0,0,1-7.76,3,15.976,15.976,0,0,1-3.021-.314,30.046,30.046,0,0,1-3.56-.944l.652-1.887a32.17,32.17,0,0,0,3.425.955,12.74,12.74,0,0,0,2.594.3A8.256,8.256,0,0,0,145,469.85a9.536,9.536,0,0,0,2.314-6.784v-8.872a11.679,11.679,0,0,0-2.437-7.783,8.106,8.106,0,0,0-6.525-2.886,8.5,8.5,0,0,0-6.424,2.718,10.338,10.338,0,0,0-.034,13.634,8.5,8.5,0,0,0,6.458,2.695,9.051,9.051,0,0,0,4.02-.909,11.389,11.389,0,0,0,3.482-2.729v2.47a11.124,11.124,0,0,1-3.493,2.212,10.931,10.931,0,0,1-4.009.731,11.3,11.3,0,0,1-4.38-.842,10.061,10.061,0,0,1-3.527-2.46,11.3,11.3,0,0,1-2.291-3.649,11.83,11.83,0,0,1-.786-4.3,11.148,11.148,0,0,1,3.089-8.086,10.4,10.4,0,0,1,7.8-3.19,10.705,10.705,0,0,1,5.39,1.393,11.235,11.235,0,0,1,4.043,4,9.625,9.625,0,0,1,1.146,3.02,20.357,20.357,0,0,1,.359,4.1Z"/>
+    <path d="M172.1,442.223h1.887v12.286a10.3,10.3,0,0,1-2.4,7.187,9.109,9.109,0,0,1-12.848,0,10.3,10.3,0,0,1-2.4-7.187V442.223h1.842v12.892a7.7,7.7,0,0,0,1.943,5.447,7.076,7.076,0,0,0,10.051.011,7.722,7.722,0,0,0,1.931-5.458Z"/>
+    <path
+      d="M201.862,453.363a11.675,11.675,0,0,1-3.346,7.907,10.318,10.318,0,0,1-7.592,3.077,10.767,10.767,0,0,1-4.189-.831,10.6,10.6,0,0,1-3.538-2.426,11.128,11.128,0,0,1-2.426-3.673,11.435,11.435,0,0,1,2.426-12.342,10.8,10.8,0,0,1,3.572-2.426,11.077,11.077,0,0,1,4.29-.831,10.3,10.3,0,0,1,5.289,1.37,11.3,11.3,0,0,1,3.964,4.066l-15.138,10.107-.876-1.46,13.431-8.984a8.379,8.379,0,0,0-2.942-2.561,8.142,8.142,0,0,0-3.773-.876,8.569,8.569,0,0,0-6.458,2.775,10.053,10.053,0,0,0-.022,13.555,8.466,8.466,0,0,0,6.39,2.762,8.314,8.314,0,0,0,6.2-2.55,10.115,10.115,0,0,0,2.763-6.659Z"/>
+    <path
+      d="M239.88,462.146h.112q1.349.088,2,.089,7.569,0,11.747-3.773t4.178-10.579a15.97,15.97,0,0,0-.932-5.56,13.012,13.012,0,0,0-2.752-4.458,12.5,12.5,0,0,0-4.986-3.313,22.152,22.152,0,0,0-7.345-1.022h-3.5v30.412h-2.021V431.778h5.3a31.657,31.657,0,0,1,6.446.562,13.783,13.783,0,0,1,4.537,1.752,15.022,15.022,0,0,1,5.526,5.705,16.786,16.786,0,0,1,1.841,8.041q0,7.659-4.773,11.9t-13.442,4.245c-.525,0-.921,0-1.191-.008s-.517-.017-.741-.037Z"/>
+    <path
+      d="M286.843,453.363a11.676,11.676,0,0,1-3.347,7.907,10.318,10.318,0,0,1-7.592,3.077,10.763,10.763,0,0,1-4.188-.831,10.586,10.586,0,0,1-3.538-2.426,11.112,11.112,0,0,1-2.426-3.673,11.435,11.435,0,0,1,2.426-12.342,10.8,10.8,0,0,1,3.571-2.426,11.084,11.084,0,0,1,4.29-.831,10.3,10.3,0,0,1,5.29,1.37,11.3,11.3,0,0,1,3.964,4.066l-15.139,10.107-.876-1.46,13.432-8.984a8.388,8.388,0,0,0-2.942-2.561,8.143,8.143,0,0,0-3.774-.876,8.57,8.57,0,0,0-6.458,2.775,10.052,10.052,0,0,0-.021,13.555,8.466,8.466,0,0,0,6.389,2.762,8.318,8.318,0,0,0,6.2-2.55,10.109,10.109,0,0,0,2.762-6.659Z"/>
+    <path
+      d="M294.545,473.735H292.7V454.329a19.792,19.792,0,0,1,.37-4.1,10.211,10.211,0,0,1,1.135-3.02,11.235,11.235,0,0,1,4.043-4,10.706,10.706,0,0,1,5.391-1.393,10.383,10.383,0,0,1,7.783,3.19,11.152,11.152,0,0,1,3.088,8.086,11.88,11.88,0,0,1-.786,4.323,11.264,11.264,0,0,1-2.269,3.628,10.067,10.067,0,0,1-3.526,2.46,11.3,11.3,0,0,1-4.38.842,10.933,10.933,0,0,1-4.01-.731,11.109,11.109,0,0,1-3.492-2.212v-2.47a11.329,11.329,0,0,0,3.492,2.729,9.077,9.077,0,0,0,4.01.909,8.544,8.544,0,0,0,6.469-2.695,10.305,10.305,0,0,0-.034-13.634,8.542,8.542,0,0,0-6.435-2.718,8.169,8.169,0,0,0-6.547,2.886,11.6,11.6,0,0,0-2.46,7.783Z"/>
+    <path
+      d="M339.239,463.942v-9.748a11.674,11.674,0,0,0-2.437-7.783,8.1,8.1,0,0,0-6.525-2.886,8.5,8.5,0,0,0-6.423,2.718,10.34,10.34,0,0,0-.035,13.634,8.509,8.509,0,0,0,6.458,2.695,9.052,9.052,0,0,0,4.021-.909,11.374,11.374,0,0,0,3.481-2.729v2.47a11.1,11.1,0,0,1-3.493,2.212,10.924,10.924,0,0,1-4.009.731,11.3,11.3,0,0,1-4.38-.842,10.067,10.067,0,0,1-3.526-2.46,11.3,11.3,0,0,1-2.291-3.649,11.83,11.83,0,0,1-.786-4.3,11.147,11.147,0,0,1,3.088-8.086,10.407,10.407,0,0,1,7.806-3.19,10.705,10.705,0,0,1,5.39,1.393,11.235,11.235,0,0,1,4.043,4,9.6,9.6,0,0,1,1.146,3.02,20.357,20.357,0,0,1,.359,4.1v9.613Z"/>
+    <path d="M348.58,463.942V442.223h1.842v4.245a8.909,8.909,0,0,1,3.224-3.246,8.694,8.694,0,0,1,4.368-1.089c.149,0,.322.008.516.022s.449.045.764.09v1.819h-.135q-1.056-.089-1.415-.089a6.658,6.658,0,0,0-5.256,2.38,8.95,8.95,0,0,0-2.066,6.087v11.5Z"/>
+    <path d="M363.626,436.068h1.887v6.155h7.681v1.8h-7.681v12.151q0,3.145,1.527,4.582t4.852,1.437h1.3v1.752h-.965q-4.312,0-6.458-1.9a7.205,7.205,0,0,1-2.145-5.693Z"/>
+    <path
+      d="M378.941,463.942v-13.3a9.25,9.25,0,0,1,2.146-6.469,7.512,7.512,0,0,1,5.851-2.359,7.409,7.409,0,0,1,3.963,1.056,8.672,8.672,0,0,1,2.932,3.167,9.129,9.129,0,0,1,2.987-3.179,7.392,7.392,0,0,1,3.931-1.044,7.58,7.58,0,0,1,5.873,2.359,9.194,9.194,0,0,1,2.168,6.469v13.3h-1.887v-13.88a6.636,6.636,0,0,0-1.695-4.729,6.224,6.224,0,0,0-8.772,0,6.66,6.66,0,0,0-1.684,4.729v13.88h-1.842v-13.88a6.66,6.66,0,0,0-1.684-4.729,6.2,6.2,0,0,0-8.749,0,6.637,6.637,0,0,0-1.7,4.729v13.88Z"/>
+    <path
+      d="M436.663,453.363a11.676,11.676,0,0,1-3.347,7.907,10.315,10.315,0,0,1-7.591,3.077,10.764,10.764,0,0,1-4.189-.831A10.586,10.586,0,0,1,418,461.09a11.128,11.128,0,0,1-2.426-3.673A11.435,11.435,0,0,1,418,445.075a10.8,10.8,0,0,1,3.571-2.426,11.084,11.084,0,0,1,4.29-.831,10.3,10.3,0,0,1,5.29,1.37,11.3,11.3,0,0,1,3.964,4.066l-15.138,10.107-.876-1.46,13.431-8.984a8.379,8.379,0,0,0-2.942-2.561,8.143,8.143,0,0,0-3.774-.876,8.572,8.572,0,0,0-6.458,2.775,10.055,10.055,0,0,0-.021,13.555,8.466,8.466,0,0,0,6.39,2.762,8.316,8.316,0,0,0,6.2-2.55,10.115,10.115,0,0,0,2.763-6.659Z"/>
+    <path d="M444.364,463.942h-1.842V451.656a10.307,10.307,0,0,1,2.4-7.177,9.083,9.083,0,0,1,12.847,0,10.307,10.307,0,0,1,2.4,7.177v12.286h-1.842v-12.87a7.7,7.7,0,0,0-1.942-5.458,7.132,7.132,0,0,0-10.086,0,7.7,7.7,0,0,0-1.943,5.458Z"/>
+    <path d="M467.361,436.068h1.887v6.155h7.682v1.8h-7.682v12.151q0,3.145,1.527,4.582t4.852,1.437h1.3v1.752h-.966q-4.312,0-6.457-1.9a7.2,7.2,0,0,1-2.146-5.693Z"/>
+  </g>
+</svg>
