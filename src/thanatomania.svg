@@ -1,0 +1,80 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1,
+      .cls-2 {
+        fill: #fff;
+      }
+      .cls-1 {
+        opacity: 0;
+      }
+      .cls-3 {
+        fill: url("#grad_1");
+      }
+      .cls-4 {
+        fill: url("#grad_2");
+      }
+      .cls-5 {
+        fill: none;
+      }
+      .cls-6 {
+        fill: rgba(255, 255, 255, 0.75);
+      }
+    </style>
+    <linearGradient id="grad_1" x1="250" y1="475" x2="250" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0"/>
+      <stop offset="0.263" stop-color="#26273b"/>
+      <stop offset="0.554" stop-color="#4c4f77"/>
+      <stop offset="0.693" stop-color="#5b5e8e"/>
+    </linearGradient>
+    <linearGradient id="grad_2" x1="249.878" y1="448.627" x2="249.878" y2="140.161" gradientUnits="userSpaceOnUse">
+      <stop offset="0"/>
+      <stop offset="0.272" stop-color="#292b41"/>
+      <stop offset="0.532" stop-color="#4d5078"/>
+      <stop offset="0.657" stop-color="#5b5e8e"/>
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <rect class="cls-1" width="500" height="500"/>
+  </g>
+  <path id="whiteout" class="cls-2" d="M352.539,14.662a22.948,22.948,0,0,0-9.862-2.162H157.324a22.964,22.964,0,0,0-9.864,2.162,40.287,40.287,0,0,0-23.11,38.7A39.742,39.742,0,0,0,142.6,84.033V384.485q0,.31.015.621c.638,12.8,5.1,45.466,32.734,72.161,28.093,27.139,61.444,30.183,74.479,30.233h.338c13.035-.05,46.386-3.094,74.479-30.233,27.638-26.7,32.1-59.36,32.733-72.163.011-.206.016-.413.016-.619V84.033a39.741,39.741,0,0,0,18.253-30.67A40.284,40.284,0,0,0,352.539,14.662Z"/>
+  <path id="outer" class="cls-3" d="M347.21,25.969A10.61,10.61,0,0,0,342.676,25H157.324a10.61,10.61,0,0,0-4.534.969,27.607,27.607,0,0,0-15.968,26.559A27.571,27.571,0,0,0,155.1,76.364V384.486c.342,6.872,2.654,38.4,28.934,63.79,26.78,25.871,59.129,26.7,65.841,26.724v-.637l.243.637c6.712-.025,39.061-.853,65.841-26.724,26.28-25.387,28.592-56.918,28.934-63.79V76.364a27.571,27.571,0,0,0,18.281-23.836A27.607,27.607,0,0,0,347.21,25.969ZM334.844,59.988h-6.771l.023,0V387.781a37.5,37.5,0,0,1-.608,6.813c-6.869,37.162-39.762,64.555-77.61,64.2-37.246-.347-69.269-27.47-76.113-64.01a39.469,39.469,0,0,1-.647-7.214L172.676,59.99l.018,0h-7.782a8.9,8.9,0,1,1,0-17.792H334.844a8.9,8.9,0,1,1,0,17.792Z"/>
+  <path id="inner" class="cls-4" d="M180.927,140.161V384.827c.627,5.452,3.9,28.47,24.15,46.145a72.963,72.963,0,0,0,44.8,17.655,72.961,72.961,0,0,0,44.8-17.655c20.252-17.675,23.523-40.693,24.15-46.145V140.161A172.124,172.124,0,0,1,249.878,154.6,172.128,172.128,0,0,1,180.927,140.161Z"/>
+  <path id="wayline5" class="cls-5" d="M218.753,340.921c-.833-1.985-5.438-13.363-5.862-32.611-.5-22.643,5.214-36.875,5.862-38.435"/>
+  <path id="wayline4" class="cls-5" d="M210.712,350.45a101.225,101.225,0,0,0,4.506-42.563,74.109,74.109,0,0,0-5.877-22.546"/>
+  <path id="wayline3" class="cls-5" d="M217.558,345.026a32.111,32.111,0,0,1-4.93-15.982c-.165-7.77,2.967-11.629,2.465-19.719a31.063,31.063,0,0,0-3.78-12.869"/>
+  <path id="wayline2" class="cls-5" d="M292.8,354.383c-12.188-21.129-15.166-39.021-15.589-51.577-1.072-31.813,13.664-47.021,15.589-83.364a156.8,156.8,0,0,0-7.544-55.776"/>
+  <path id="wayline1" class="cls-5" d="M285.235,351.2c9.859-21.54,12.268-39.78,12.61-52.581.867-32.432-11.053-47.935-12.61-84.985a198.623,198.623,0,0,1,6.1-56.861"/>
+  <circle id="circle1" class="cls-6" cx="0" cy="0" r="4">
+    <animateMotion dur="2.5s" begin="1s" repeatCount="indefinite">
+      <mpath xlink:href="#wayline1"></mpath>
+    </animateMotion>
+    <animate attributeName="fill-opacity" values="1;1;1;0" dur="2.5s" begin="1s" repeatCount="indefinite" />
+  </circle>
+  <circle id="circle2" class="cls-6" cx="0" cy="0" r="6.5">
+    <animateMotion dur="2s" repeatCount="indefinite">
+      <mpath xlink:href="#wayline2"></mpath>
+    </animateMotion>
+    <animate attributeName="fill-opacity" values="1;1;1;0" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle id="circle3" class="cls-6" cx="0" cy="0" r="2">
+    <animateMotion dur="1.5s" repeatCount="indefinite">
+      <mpath xlink:href="#wayline3"></mpath>
+    </animateMotion>
+    <animate attributeName="fill-opacity" values="1;1;1;0" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+  <circle id="circle4" class="cls-6" cx="0" cy="0" r="3">
+    <animateMotion dur="1.25s" repeatCount="indefinite">
+      <mpath xlink:href="#wayline4"></mpath>
+    </animateMotion>
+    <animate attributeName="fill-opacity" values="1;1;1;0" dur="1.25s" repeatCount="indefinite" />
+  </circle>
+  <circle id="circle5" class="cls-6" cx="0" cy="0" r="2.5">
+    <animateMotion dur="1s" repeatCount="indefinite">
+      <mpath xlink:href="#wayline5"></mpath>
+    </animateMotion>
+    <animate attributeName="fill-opacity" values="1;1;1;0" dur="1s" repeatCount="indefinite" />
+  </circle>
+  <path id="skull" class="cls-2" d="M302.414,375.68c0-27.561-23.376-49.9-52.212-49.9s-52.212,22.342-52.212,49.9a48.909,48.909,0,0,0,18.32,37.944v17.912h10.4V420.242a53.269,53.269,0,0,0,8.41,3.218v8.076h10.4v-6.163c1.546.132,3.107.21,4.688.21,1.629,0,3.238-.081,4.829-.22v6.173h10.4v-8.115a53.241,53.241,0,0,0,8.41-3.248v11.363h10.4V413.508A48.9,48.9,0,0,0,302.414,375.68Zm-94.165-4.425a16.872,16.872,0,1,1,16.872,16.871A16.872,16.872,0,0,1,208.249,371.255Zm67.034-16.872a16.872,16.872,0,1,1-16.871,16.872A16.872,16.872,0,0,1,275.283,354.383Z"/>
+</svg>
